@@ -1,9 +1,22 @@
-TODO
+____________________________________________________________________________________________________
 
-2) Install mysql server
-3)
+TODO
+====
+
+5) Skapa andra tabellen med kopplingar
+6) Lär mer om Django
+9) 
+
+____________________________________________________________________________________________________
 
 DONE
+====
 
 1) Create Git repo
+2) Install mysql server
+3) Skapa en användare
+4) Skapa en tabell
+7) Lägg in data i en tabell
+8) Visa data från en tabell
+____________________________________________________________________________________________________
 

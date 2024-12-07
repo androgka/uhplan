@@ -1,0 +1,71 @@
+### Log in to mysql and select database ###
+
+mysql -u anders -p
+    mysqlanders
+
+USE uh001
+
+
+### Lista alla databaser ###
+
+SHOW DATABASES;
+
+
+### Create table ###
+
+CREATE TABLE Koder (
+    Undkodsid int NOT NULL,
+    Beskrivning varchar(255),
+    Andringsbar varchar(255),
+    Intervall int,
+    Berakning varchar(255),
+    Pris_enhet int,
+    Antal_std int,
+    PRIMARY KEY (Undkodsid)
+);
+
+CREATE TABLE Moduler (
+    
+);
+
+### List tables ###
+
+SHOW TABLES;
+
+
+### Describe a table ###
+
+DESCRIBE TABLE Koder;
+SHOW FIELDS IN Koder;
+SELECT * FROM Koder;
+
+
+### Add record ###
+
+INSERT INTO Koder VALUES (10001, 'Luftavfuktare', 'Ja', 20, 'Artikel', 1, 1);
+
+
+### Change table ###
+
+ALTER TABLE Koder MODIFY Andringsbar tinyint(1);
+ALTER TABLE Koder ADD PRIMARY KEY (Undkodsid);
+ALTER TABLE Koder MODIFY Andringsbar enum('Ja', 'Nej');
+
+
+### Alla behörigheter till användare "anders" ###
+
+GRANT ALL PRIVILEGES ON uh001.* TO 'anders'@'localhost';
+
+====================================================================================================
+
+https://underhallsplanen.se/
+
+uh001
+
+sunand1957@1951
+
+underhallsplanen_seuh001
+
+https://dbadmin.one.com/index.php?route=/database/structure&db=underhallsplanen_seuh001
+
+anders anders55
