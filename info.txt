@@ -7,19 +7,39 @@ mysql -u anders -p
 
 SHOW DATABASES;
 
+# Select database
+
+USE uh001
+
 # Alla behörigheter till användare "anders"
 
 GRANT ALL PRIVILEGES ON uh001.* TO 'anders'@'localhost';
 
 # Create table
 
-CREATE TABLE Persons (
-    PersonID int,
-    LastName varchar(255),
-    FirstName varchar(255),
-    Address varchar(255),
-    City varchar(255)
+CREATE TABLE Koder (
+    Undkodsid int,
+    Beskrivning varchar(255),
+    Andringsbar varchar(255),
+    Intervall int,
+    Berakning varchar(255),
+    Pris_enhet int,
+    Antal_std int
 );
+
+# List tables
+
+SHOW TABLES;
+
+# Describe a table
+
+DESCRIBE TABLE Koder;
+
+SHOW FIELDS IN Koder;
+
+# Change table
+
+ALTER TABLE Koder MODIFY Andringsbar tinyint(1);
 
 ----------------------------------------------------------------------------------------------------
 
