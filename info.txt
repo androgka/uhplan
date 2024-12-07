@@ -1,3 +1,28 @@
+# Logga in på mysql
+
+mysql -u anders -p
+    mysqlanders
+
+# Lista alla databaser
+
+SHOW DATABASES;
+
+# Alla behörigheter till användare "anders"
+
+GRANT ALL PRIVILEGES ON uh001.* TO 'anders'@'localhost';
+
+# Create table
+
+CREATE TABLE Persons (
+    PersonID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255)
+);
+
+----------------------------------------------------------------------------------------------------
+
 https://underhallsplanen.se/
 
 uh001
@@ -8,3 +33,4 @@ underhallsplanen_seuh001
 
 https://dbadmin.one.com/index.php?route=/database/structure&db=underhallsplanen_seuh001
 
+anders anders55
