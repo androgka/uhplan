@@ -56,6 +56,12 @@ ALTER TABLE Koder MODIFY Andringsbar enum('Ja', 'Nej');
 
 GRANT ALL PRIVILEGES ON uh001.* TO 'anders'@'localhost';
 
+
+### View my own IP address ###
+
+https://whatismyipaddress.com/#google_vignette
+
+
 ====================================================================================================
 
 https://underhallsplanen.se/
@@ -69,3 +75,4 @@ underhallsplanen_seuh001
 https://dbadmin.one.com/index.php?route=/database/structure&db=underhallsplanen_seuh001
 
 anders anders55
+

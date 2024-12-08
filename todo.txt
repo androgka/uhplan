@@ -5,7 +5,11 @@ TODO
 
 5) Skapa andra tabellen med kopplingar
 6) Lär mer om Django
-9) 
+9) Install Web server
+11) Open port 8000 on router
+12)
+13)
+14)
 
 ____________________________________________________________________________________________________
 
@@ -18,5 +22,6 @@ DONE
 4) Skapa en tabell
 7) Lägg in data i en tabell
 8) Visa data från en tabell
+10) Install Django
 ____________________________________________________________________________________________________
 
