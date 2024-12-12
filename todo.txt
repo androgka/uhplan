@@ -4,10 +4,8 @@ TODO
 ====
 
 5) Skapa andra tabellen med kopplingar
-13) LDjango Tutorial #4
 14) LDJango Tutorial #5
-15) Setup admin login
-16) 
+16) LDJango Tutorial #6
 17) 
 18) 
 
@@ -29,5 +27,7 @@ DONE
 6) LDjango Tutorial #1
 7) LDjango Tutorial #2
 12) LDjango Tutorial #3
+13) LDjango Tutorial #4
+15) Setup admin login
 ____________________________________________________________________________________________________
 
