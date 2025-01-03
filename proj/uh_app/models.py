@@ -1,4 +1,4 @@
 from django.db import models
 
-class Kunder(models.Model):
+class Kund(models.Model):
     namn = models.CharField(max_length=64)

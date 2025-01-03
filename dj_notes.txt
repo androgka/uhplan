@@ -6,7 +6,7 @@ http://localhost:8000/
 
 # Router IP
 
-http://192.168.1.254/index.html#/gui/home
+curl ipinfo.io/ip
 
 
 # Log
